@@ -6,6 +6,8 @@
 - Enumerated constants
 - Enumeration expressions
 
+---
+
 - Immutable, but can be shadowed
 - Replaces by the compiler at compile time
     - Value must be calculable at compile time
@@ -21,7 +23,7 @@
     - Iota starts at 0 in each const block and increments by one
     - Watch out of constant values that match zero values for variables
 - Enumerated expressions
-  - Operations that can be determined at compile time are allowed
-    - Arithmetic
-    - Bitwise operations
-    - Bitshift
+    - Operations that can be determined at compile time are allowed
+        - Arithmetic
+        - Bitwise operations
+        - Bitshift
