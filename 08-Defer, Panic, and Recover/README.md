@@ -17,5 +17,3 @@
     - Used to recover from panics
     - Only useful in deferred functions
     - Current function will not attempt to continue, but higher functions in call stack will
-
----

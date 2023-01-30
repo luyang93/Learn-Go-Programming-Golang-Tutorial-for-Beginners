@@ -1,0 +1,22 @@
+# Pointers
+
+- Creating pointers
+    - Pointer types use an asterisk(*) as a prefix to type pointed to
+        - *int - a pointer to an integer
+    - Use the addressof operator(&) to get addressof variable
+- Dereferencing pointers
+    - Dereferencing a pointer by preceding with an asterisk(*)
+    - Complex types(e.g. struct) are automatically dereferenced
+- Create pointers to objects
+    - Can use the addressof operator(&) if value type already exists
+        - ms := myStruct{foo: 42}
+        - p := &ms
+    - Use addressof operator before initializer
+        - &myStruct{foo: 42}
+    - Use the new keyword
+        - Cant initialize fields at the same time
+- The new function
+- Working with **nil**
+- Types with internal pointers
+    - All assignment operations in Go are copy operations
+    - Slices and maps contain internal pointers, so copies point to same underlying data
